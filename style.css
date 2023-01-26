@@ -7,7 +7,11 @@
 
 
 
+body {
 
+  padding: 0;
+  margin: 0;
+}
 h1,
 h2,
 h3,
@@ -228,6 +232,12 @@ nav .logo {
   display:inline-block;
   background: #111111;
   padding-bottom: 50px;
+}
+
+.text{
+  margin-top: 40px;
+  margin-left: 50px
+;
 }
 
 

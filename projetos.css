@@ -39,6 +39,40 @@ a {
   
 }
 
+.hover-image {
+  position: relative;
+  
+  
+}
+.hover-image span {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  
+  width: 100%;
+  line-height: 45px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.623);
+  color: #FFF;
+  text-align:center;
+  font-family: "Roboto";
+  left: 0;
+  top: 0;
+  margin: auto;
+  margin-top: -5px;
+  transition: all 0.4s ease;
+}
+.hover-image:hover span {
+  opacity: 1;
+  visibility: visible;
+  bottom: 0;
+}
+  
+
+
 main {
   height: 110vh;
   

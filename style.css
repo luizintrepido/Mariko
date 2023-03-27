@@ -105,7 +105,7 @@ main {
 }
 
 nav .logo {
-  max-width: 200px;
+  max-width: 100px;
 
   float: left;
   display:block
@@ -113,7 +113,7 @@ nav .logo {
 }
 
 .logo img {
-  max-width: 200px;
+  max-width: 50px;
   align-items: center;
 }
 
@@ -240,6 +240,25 @@ nav .logo {
 ;
 }
 
+.divid{
 
+margin-top: 30px;
+  
+background-color: #929292; font-family: 'Roboto', sans-serif;
+color: #E9E7E7;  
 
+}
 
+.divid h1 {
+  margin-left: 40px;
+}
+
+.cropped1 {
+  width: 100%; /* width of container */
+  height: 650px; /* height of container */
+  object-fit: cover;}
+ 
+  .cropped2 {
+    width: 100%; /* width of container */
+    height: 800px; /* height of container */
+    object-fit: cover;}
